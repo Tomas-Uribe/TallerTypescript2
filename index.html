@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TV Series</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div style="background-color: #17a2b8; padding: 10px; color: white; display: flex; align-items: center;">
+    <img src="https://img.icons8.com/color/48/000000/tv.png" style="height: 30px; margin-right: 10px;">
+    <h4 style="margin: 0;">TV Series</h4>
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <table class="table table-hover" id="series-table"></table>
+        <p id="avg-seasons" class="mt-2"></p>
+      </div>
+      <div class="col-md-4" id="series-card"></div>
+    </div>
+  </div>
+
+  <script type="module" src="./dist/main.js"></script>
+</body>
+</html>

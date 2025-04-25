@@ -1,0 +1,14 @@
+.card img {
+    max-height: 180px;
+    object-fit: cover;
+  }
+  
+  .card {
+    margin-top: 20px;
+  }
+  .card-img-top {
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  
